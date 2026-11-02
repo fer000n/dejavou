@@ -1,0 +1,29 @@
+# Proprietary tunnel sources (DO NOT PUBLISH)
+cmd/
+internal/
+dist/
+.agents/
+daggerlauncher-src/
+
+# Sensitive keys and temporary configs
+*.psk
+.psk
+test_cfg.json
+valid_test_cfg.json
+bad_cfg.json
+*.bak
+*.tmp
+
+# Old/unneeded binary names
+DaggerLauncher
+DaggerLauncher.exe
+DaggerLauncher_linux
+daggerlauncher
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Go test / coverage
+*.out
+*.test
